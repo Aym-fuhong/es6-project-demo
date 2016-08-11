@@ -2,10 +2,28 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Es6 Project Demo</title>
+	<title>Delicious School</title>
+	<script src="../node_modules/jquery/dist/jquery.js"></script>
+	<script src="./js/index.js"></script>
+	<!--<link rel="stylesheet" href="index.css">-->
+	<!--<script src="../public/index.js"></script>-->
 </head>
 <body>
-	<div id='content'></div>
-	<script src="/assets/bundle.js"></script>
+<form action="/login" method="post">
+	<div id="div">
+		<div id="main-log"><pre>登录</pre></div>
+		<div id="div1">
+			用户名：
+			<input id="name" name="name" type="text"/><br>
+			密  码：
+			<input id="password" name="password" type="password"/>
+		</div>
+		<div id="div3">
+			<input type="submit" value="提交"/> <input type="reset" value="重置">
+		</div>
+	</div>
+</form>
+
+
 </body>
 </html>
